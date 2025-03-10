@@ -1,0 +1,132 @@
+*::after, +::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.link-header {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: #04AA6D;
+}
+
+.link-header .adresse{
+    display: flex;
+    flex-direction: row;
+    right: 10px;
+}
+.link-reso {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+header .link-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.maison {
+    width: 100%;
+    height: 3rem;
+}
+.image-logo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1000px;
+}
+/* Parte Principale*/
+
+main {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    background-color: gray;
+}
+
+.about-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.about-2 button {
+    width: 20%;
+    background-color: #04AA6D;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 24px;
+}
+.about-2 button:hover{
+    background-color: rgb(118, 190, 118);
+}
+
+.fonct-principale {
+    background-image: url("./images/bg-icon.png");
+    width: 100%;
+    height: 500px;
+    border: 2px solid green;
+}
+
+.fonct-nos{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+
+}
+
+.fonctionalites {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.fonctionalites h2 {
+    width: 100%;
+    width: 100px;
+    font-size: 24px;
+}
+
+.fonctionalites .processus .produits .biologiquement {
+    width: 10%;
+    background-color: white;
+    border: 2px solid red;
+    margin-right: auto;
+}
+
+.fonctionalites button {
+    padding: 10px 15px;
+    border: 1px solid #04AA6D;;
+    color: #04AA6D;
+    border-radius: 50px;
+}
+
+.fonctionalites button:hover{
+    background-color: white;
+}

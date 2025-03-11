@@ -8,31 +8,37 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
-    margin-bottom: 50px;
-    background-image: url("./images/carousel-1.jpg");
+    height: 500px;
+    border: 10px solid greenyellow;
 }
 
 .link-header {
+    width: 100%;
     justify-content: space-evenly;
-    margin-left: 10px;
-    height: 90px;
+    height: 50%;
     background-color: #04AA6D;
+    border: 3px solid red;
 }
 
 .link-header i{
     display: inline-flex;
 }
 
-.maison {
-    display: flex;
-    padding: 10px;
-}
 .flex-center {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    border: 5px solid red;
+    background-color: aqua;
 }
+
+.maison {
+    background-color: #33FF49;
+    display: flex;
+    padding: 10px;
+    border: 5px solid red;
+}
+
 header .link-header {
     display: flex;
     flex-direction: row;
@@ -41,17 +47,15 @@ header .link-header {
     justify-content: space-around;
 }
 
-.maison {
-    width: 100%;
-    height: 3rem;
-}
+
 .image-logo {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     width: 100%;
-    height: 800px;
+    height: 100%;
+    background-color: antiquewhite;
     margin-bottom: 1000px;
+    border: 5px solid gray;
 }
 
 .image-logo button { 
@@ -60,25 +64,30 @@ header .link-header {
     left: 50px;
     height: 20px;
     margin-top: 300px;
-
+    background-color: brown;
     -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.image-logo img {
 }
 
 /* Parte Principale*/
 
 main {
+    margin-top: 150px;
     width: 100%;
     height: 100%;
+    border: 1px solid red;
 }
 .about {
     display: flex;
     flex-direction: row;
-    margin-top: 5rem;
     margin: 0;
     width: 100%;
     height: 400px;
     padding: 20px;
+    border: 1px solid red;
 }
 
 .about-2 {
@@ -107,6 +116,7 @@ main {
     width: 100%;
     height: 500px;
     border: 2px solid green;
+    border: 1px solid red;
 }
 
 .fonct-nos{
@@ -115,6 +125,7 @@ main {
     flex-direction: column;
     margin: auto;
     text-align: center;
+    border: 1px solid red;
 
 }
 
@@ -122,6 +133,7 @@ main {
     display: flex;
     text-align: center;
     padding: 10px;
+    border: 1px solid red;
     
 }
 
@@ -157,6 +169,11 @@ main {
     column-gap: 5px;
     row-gap: 2em;
     position: relative;
+    border: 1px solid red;
+}
+.total-fruits img {
+    width: 90%;
+    height: 250px;
 }
 
 .total-fruits button{
@@ -174,6 +191,7 @@ main {
     width: 100%;
     height: 200px;
     background-color: #33FF49;
+    border: 1px solid red;
 }
 
 .visit button {
@@ -186,12 +204,34 @@ main {
 
 }
 
+
 footer {
+    display: flex;
+    flex-direction: column;
     margin-bottom: auto;
     left: 0;
     bottom: 1px;
     background-color: black;
     text-align: center;
     width: 100%;
-    height: 100px;
+    height: 200px;
+    border: 1px solid red;
 }
+.footer-1 {
+    background-color: #33FF49;
+    width: 100%;
+    height: 200px;
+    padding: 100px;
+}
+.footer-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+}
+

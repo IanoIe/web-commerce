@@ -187,24 +187,147 @@ main {
     display: block;
 }
 
+
+/* Des infs d´entreprise e avis de clients*/
+
+.visit-principal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    border: 7px solid blue;
+    background-image: url("./images/bg-icon.png");
+    margin-bottom: 10px;
+}
 .visit {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
     width: 100%;
     height: 200px;
     background-color: #33FF49;
     border: 1px solid red;
 }
+.visit-1 {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.avis-clients{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    border: 7px solid yellow;
+}
+
+.avis-client-inf {
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.avis-nom-client {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 30px;
+    border: 3px solid rgb(126, 153, 51);
+}
+
+.avis-nom-client-1 {
+    text-align: center;
+    border: 5px solid magenta;
+}
+.avis-nom-client-1 img {
+    border-radius: 50%;
+}
+
+.avis-nom-client-1 p{
+    text-align: center;
+}
+
+.avis-nom-client-2 {
+    border: 5px solid rgb(235, 13, 13);
+    text-align: justify;
+}
+.avis-nom-client-2 {
+    background-color: #33FF49;
+    text-align: center;
+    color: white;
+}
+.avis-nom-client-2 img{
+    border-radius: 50%;
+}
+
+.avis-nom-client-3 p {
+    text-align: center;
+}
+
+.avis-nom-client-3 img{ 
+    border-radius: 50%;
+}
+.avis-nom-client-3 {
+    border: 5px solid rgb(22, 231, 39);
+    text-align: center;
+}
 
 .visit button {
-    padding-left: 100px;
+    margin-top: 50px;
+    width: 20%;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    border: 5px solid goldenrod;
+   
+}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    flex-direction: column;
+    margin-top: 25px;
     align-items: center;
+    text-align: center;
+    border: 5px solid mediumseagreen;
 }
 
 .blogs h2{
     width: 100%;
+    height: 20px;
 
 }
 
+.blogs p{
+    width: 25%;
+    text-align: center;
 
+}
+
+.blogs-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    border: 6px solid blanchedalmond;
+}
+
+
+.blogs-content img {
+    width: 50%;
+}
+
+/*
 footer {
     display: flex;
     flex-direction: column;
@@ -216,6 +339,7 @@ footer {
     width: 100%;
     height: 200px;
     border: 1px solid red;
+    position: fixed;
 }
 .footer-1 {
     background-color: #33FF49;
@@ -233,5 +357,7 @@ footer {
     align-items: center;
     font-size: 15px;
     color: white;
+    
 }
+*/
 

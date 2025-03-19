@@ -1,1 +1,3 @@
 # web-commerce
+
+## This project is for practicing htm and css...

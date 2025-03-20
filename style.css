@@ -1,12 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     width: 100%;
-    height: 40rem;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     background-image: url("./images/carousel-1.jpg");
@@ -161,7 +162,8 @@ main {
 }
 
 .meilleurs-fruits {
-    padding-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -214,13 +216,18 @@ main {
 
 /* section de "Nos Fonctionnalités */
 .nos-fonctionnalites {
+    width: 100%;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     background-image: url("./images/bg-icon.png");
+    background-repeat: no-repeat;
     align-items: center;
-    padding: 20px;
-    width: 100%;
-    height: 400px;
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    background-color: rgb(247, 248, 248);
+    padding-bottom: 50px;
 }
 
 .fonctionnalites-1 {
@@ -268,7 +275,7 @@ main {
     width: 50%;
     height: 225px;
     gap: 10px;
-    box-shadow: 1px 5px 10px 10px rgb(230, 226, 226);
+    background-color: white;
 }
 
 
@@ -280,7 +287,8 @@ main {
     width: 50%;
     height: 225px;
     gap: 10px;
-    box-shadow: 1px 5px 10px 10px rgb(230, 226, 226);
+    background-color: white;
+   /* box-shadow: 1px 5px 10px 10px rgb(230, 226, 226);*/
 }
 
 .biologiquement {
@@ -291,16 +299,16 @@ main {
     width: 50%;
     height: 225px;
     gap: 10px;
-    box-shadow: 1px 5px 10px 10px rgb(230, 226, 226);
+    background-color: white;
 }
 /* Section Nos produits*/
 .nos-produits{
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 500px;
+    height: 150px;
     align-items: center;
+    border: 5px solid yellow;
 }
 
 .produits-1 {
@@ -335,52 +343,556 @@ main {
 .produits-1-2 button{
     align-items: center;
     margin-top: 120px;
-    justify-content: space-around;
     border: 2px solid rgb(36, 201, 36);
-    width: 25%;
-    height: 25px;
+    width: 22%;
+    height: 24px;
 }
 .produits-1-2 button:hover{
     background-color: #33FF42;
     color: white;
 }
 
-/* Section Nos produit 1*/
-.contant-nouveau {
-    margin-top: 50px;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    flex-direction: row;
-    border: 2px solid red;
-}
-
-.nouveau-1 {
+/* section de fruits */
+.legumes {
     display: flex;
     flex-direction: column;
-}
-.nouveau-1-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    height: 560px;
     width: 100%;
-    height: 300px;
-    border: 4px solid blueviolet;
+    border: 5px solid magenta;
 }
-
-.nouveau-1-1 img {
-    width: 80%;
-    height: 150px;
-}
-.nouveau-1-1 p{
-    font-size: 12px;
-}
-.nouveau-1-2 {
+/* Div of legume-1 is in section of fruit  */
+.legume-1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 4px;
+    height: 900px;
+    width: 100%;
 }
-.nouveau-1-2 img{
+ /* div pour la tomate*/
+.tomate {
+    display: flex;
+    flex-direction: column;
     width: 20%;
+    height: 270px;
+    border: 2px solid red;
+}
+.tomate-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 3px solid green;
+}
+.tomate-1 img{
+    width: 100%;
+    height: 200px;
+}
+
+.tomate-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    border: 4px solid mediumseagreen;
+}
+
+.tomate-img-1 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.tomate-img-1 p{
+    padding-top: 4px;
+}
+.tomate-img-1 img {
+    padding-bottom: 2px;
+}
+.tomate-img-2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.tomate-img-2 p{
+    padding-top: 4px;
+}
+
+.tomate-img-2 img {
+    padding-bottom: 2px;
+}
+.tomate-details img {
+    width: 16%;
     height: 15px;
+    text-indent: 10px;
+    margin: 2px;
+    margin-right: 5px;
+}
+.tomate-details p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/* div pour ananas*/
+.ananas {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 270px;
+    border: 2px solid red;
+}
+.ananas-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 3px solid green;
+}
+
+.ananas-1 img{
+    width: 100%;
+    height: 200px;
+}
+.ananas-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    border: 4px solid mediumseagreen;
+}
+.ananas-img-1 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.ananas-img-1 p{
+    padding-top: 4px;
+}
+.ananas-img-1 img {
+    padding-bottom: 2px;
+}
+.ananas-img-2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.ananas-img-2 p{
+    padding-top: 4px;
+}
+
+.ananas-img-2 img {
+    padding-bottom: 2px;
+}
+.ananas-details img {
+    width: 16%;
+    height: 15px;
+    text-indent: 10px;
+    margin: 2px;
+    margin-right: 5px;
+}
+.ananas-details p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/* div pour piment */
+.piment {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 270px;
+    border: 2px solid red;
+}
+.piment-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 3px solid green;
+}
+
+.piment-1 img{
+    width: 100%;
+    height: 200px;
+}
+.piment-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    border: 4px solid mediumseagreen;
+}
+.piment-img-1 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.piment-img-1 p{
+    padding-top: 4px;
+}
+.piment-img-1 img {
+    padding-bottom: 2px;
+}
+.piment-img-2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.piment-img-2 p{
+    padding-top: 4px;
+}
+
+.piment-img-2 img {
+    padding-bottom: 2px;
+}
+.piment-details img {
+    width: 16%;
+    height: 15px;
+    text-indent: 10px;
+    margin: 2px;
+    margin-right: 5px;
+}
+.piment-details p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/* div pour Fraise */
+.fraise {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 270px;
+    border: 2px solid red;
+}
+.fraise-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 3px solid green;
+}
+
+.fraise-1 img{
+    width: 100%;
+    height: 200px;
+}
+.fraise-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    border: 4px solid mediumseagreen;
+}
+.fraise-img-1 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.fraise-img-1 p{
+    padding-top: 4px;
+}
+.fraise-img-1 img {
+    padding-bottom: 2px;
+}
+.fraise-img-2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.fraise-img-2 p{
+    padding-top: 4px;
+}
+
+.fraise-img-2 img {
+    padding-bottom: 2px;
+}
+.fraise-details img {
+    width: 16%;
+    height: 15px;
+    text-indent: 10px;
+    margin: 2px;
+    margin-right: 5px;
+}
+.fraise-details p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/* Div of legume-2 is in section of fruit  */
+.legume-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    height: 900px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* div de concomnbre */
+.concombre {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 270px;
+    border: 2px solid red;
+}
+.concombre-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 3px solid green;
+}
+.concombre-1 img{
+    width: 100%;
+    height: 200px;
+}
+
+.concombre-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    border: 4px solid mediumseagreen;
+}
+
+.concombre-img-1 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.concombre-img-1 p{
+    padding-top: 4px;
+}
+.concombre-img-1 img {
+    padding-bottom: 2px;
+}
+.concombre-img-2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.concombre-img-2 p{
+    padding-top: 4px;
+}
+
+.concombre-img-2 img {
+    padding-bottom: 2px;
+}
+.concombre-details img {
+    width: 16%;
+    height: 15px;
+    text-indent: 10px;
+    margin: 2px;
+    margin-right: 5px;
+}
+.concombre-details p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/* div du tomat*/
+.tomat {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 270px;
+    border: 2px solid red;
+}
+.tomat-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 3px solid green;
+}
+.tomat-1 img{
+    width: 100%;
+    height: 200px;
+}
+
+.tomat-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    border: 4px solid mediumseagreen;
+}
+
+.tomat-img-1 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.tomat-img-1 p{
+    padding-top: 4px;
+}
+.tomat-img-1 img {
+    padding-bottom: 2px;
+}
+.tomat-img-2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.tomat-img-2 p{
+    padding-top: 4px;
+}
+
+.tomat-img-2 img {
+    padding-bottom: 2px;
+}
+.tomat-details img {
+    width: 16%;
+    height: 15px;
+    text-indent: 10px;
+    margin: 2px;
+    margin-right: 5px;
+}
+.tomat-details p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/* div du pomme */
+.pomme {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 270px;
+    border: 2px solid red;
+}
+.pomme-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 3px solid green;
+}
+.pomme-1 img{
+    width: 100%;
+    height: 200px;
+}
+
+.pomme-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    border: 4px solid mediumseagreen;
+}
+
+.pomme-img-1 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.pomme-img-1 p{
+    padding-top: 4px;
+}
+.pomme-img-1 img {
+    padding-bottom: 2px;
+}
+.pomme-img-2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.pomme-img-2 p{
+    padding-top: 4px;
+}
+
+.pomme-img-2 img {
+    padding-bottom: 2px;
+}
+.pomme-details img {
+    width: 16%;
+    height: 15px;
+    text-indent: 10px;
+    margin: 2px;
+    margin-right: 5px;
+}
+.pomme-details p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/* div du bananas*/
+.banana {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 270px;
+    border: 2px solid red;
+}
+.banana-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 3px solid green;
+}
+.banana-1 img{
+    width: 100%;
+    height: 200px;
+}
+
+.banana-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    border: 4px solid mediumseagreen;
+}
+
+.banana-img-1 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.banana-img-1 p{
+    padding-top: 4px;
+}
+.banana-img-1 img {
+    padding-bottom: 2px;
+}
+.banana-img-2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.banana-img-2 p{
+    padding-top: 4px;
+}
+
+.banana-img-2 img {
+    padding-bottom: 2px;
+}
+.banana-details img {
+    width: 16%;
+    height: 15px;
+    text-indent: 10px;
+    margin: 2px;
+    margin-right: 5px;
+}
+.banana-details p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.legumes button{
+    width: 25%;
+    height: 50px;
+    background-color: #33FF42;
+    border-radius: 20px;
 }

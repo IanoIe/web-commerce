@@ -157,7 +157,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1300px;
+    height: 1900px;
     border: 2px solid greenyellow;
 }
 
@@ -216,6 +216,7 @@ main {
 
 /* section de "Nos Fonctionnalités */
 .nos-fonctionnalites {
+    margin-top: 100px;
     width: 100%;
     height: 90vh;
     display: flex;
@@ -302,13 +303,12 @@ main {
     background-color: white;
 }
 /* Section Nos produits*/
-.nos-produits{
+.nos-produits {
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     height: 150px;
     align-items: center;
-    border: 5px solid yellow;
 }
 
 .produits-1 {
@@ -357,17 +357,18 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 560px;
+    align-items: center;
+    height: 600px;
     width: 100%;
-    border: 5px solid magenta;
+    background-color: white;
 }
 /* Div of legume-1 is in section of fruit  */
 .legume-1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 4px;
-    height: 900px;
+    gap: 6px;
+    height: 850px;
     width: 100%;
 }
  /* div pour la tomate*/
@@ -376,7 +377,6 @@ main {
     flex-direction: column;
     width: 20%;
     height: 270px;
-    border: 2px solid red;
 }
 .tomate-1 {
     display: flex;
@@ -384,11 +384,14 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 3px solid green;
+    background-color: white;
+    border-bottom: 1px solid gray;
 }
 .tomate-1 img{
+    margin-bottom: 10px;
     width: 100%;
     height: 200px;
+    
 }
 
 .tomate-details {
@@ -396,7 +399,7 @@ main {
     flex-direction: row;
     width: 100%;
     height: 25px;
-    border: 4px solid mediumseagreen;
+    background-color: white;
 }
 
 .tomate-img-1 {
@@ -440,7 +443,6 @@ main {
     flex-direction: column;
     width: 20%;
     height: 270px;
-    border: 2px solid red;
 }
 .ananas-1 {
     display: flex;
@@ -448,19 +450,21 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 3px solid green;
+    background-color: white;
+    border-bottom: 1px solid gray;
 }
 
 .ananas-1 img{
     width: 100%;
     height: 200px;
+    margin-bottom: 10px;
 }
 .ananas-details {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 25px;
-    border: 4px solid mediumseagreen;
+    background-color: white;
 }
 .ananas-img-1 {
     display: flex;
@@ -503,7 +507,6 @@ main {
     flex-direction: column;
     width: 20%;
     height: 270px;
-    border: 2px solid red;
 }
 .piment-1 {
     display: flex;
@@ -511,19 +514,21 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 3px solid green;
+    background-color: white;
+    border-bottom: 1px solid gray;
 }
 
 .piment-1 img{
     width: 100%;
     height: 200px;
+    margin-bottom: 10px;
 }
 .piment-details {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 25px;
-    border: 4px solid mediumseagreen;
+    background-color: white;
 }
 .piment-img-1 {
     display: flex;
@@ -566,7 +571,6 @@ main {
     flex-direction: column;
     width: 20%;
     height: 270px;
-    border: 2px solid red;
 }
 .fraise-1 {
     display: flex;
@@ -574,19 +578,21 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 3px solid green;
+    background-color: white;
+    border-bottom: 1px solid gray;
 }
 
 .fraise-1 img{
     width: 100%;
     height: 200px;
+    margin-bottom: 10px;
 }
 .fraise-details {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 25px;
-    border: 4px solid mediumseagreen;
+    background-color: white;
 }
 .fraise-img-1 {
     display: flex;
@@ -628,7 +634,8 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 4px;
+    align-items: center;
+    gap: 6px;
     height: 900px;
     width: 100%;
     margin-top: 10px;
@@ -640,7 +647,6 @@ main {
     flex-direction: column;
     width: 20%;
     height: 270px;
-    border: 2px solid red;
 }
 .concombre-1 {
     display: flex;
@@ -648,11 +654,13 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 3px solid green;
+    background-color: white;
+    border-bottom: 1px solid gray;
 }
 .concombre-1 img{
     width: 100%;
     height: 200px;
+    margin-bottom: 10px;
 }
 
 .concombre-details {
@@ -660,7 +668,7 @@ main {
     flex-direction: row;
     width: 100%;
     height: 25px;
-    border: 4px solid mediumseagreen;
+    background-color: white;
 }
 
 .concombre-img-1 {
@@ -704,7 +712,6 @@ main {
     flex-direction: column;
     width: 20%;
     height: 270px;
-    border: 2px solid red;
 }
 .tomat-1 {
     display: flex;
@@ -712,11 +719,13 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 3px solid green;
+    background-color: white;
+    border-bottom: 1px solid gray;
 }
 .tomat-1 img{
     width: 100%;
     height: 200px;
+    margin-bottom: 10px;
 }
 
 .tomat-details {
@@ -724,7 +733,7 @@ main {
     flex-direction: row;
     width: 100%;
     height: 25px;
-    border: 4px solid mediumseagreen;
+    background-color: white;
 }
 
 .tomat-img-1 {
@@ -768,7 +777,6 @@ main {
     flex-direction: column;
     width: 20%;
     height: 270px;
-    border: 2px solid red;
 }
 .pomme-1 {
     display: flex;
@@ -776,11 +784,13 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 3px solid green;
+    background-color: white;
+    border-bottom: 1px solid gray;
 }
 .pomme-1 img{
     width: 100%;
     height: 200px;
+    margin-bottom: 10px;
 }
 
 .pomme-details {
@@ -788,7 +798,7 @@ main {
     flex-direction: row;
     width: 100%;
     height: 25px;
-    border: 4px solid mediumseagreen;
+    background-color: white;
 }
 
 .pomme-img-1 {
@@ -832,7 +842,6 @@ main {
     flex-direction: column;
     width: 20%;
     height: 270px;
-    border: 2px solid red;
 }
 .banana-1 {
     display: flex;
@@ -840,11 +849,13 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 3px solid green;
+    background-color: white;
+    border-bottom: 1px solid gray;
 }
 .banana-1 img{
     width: 100%;
     height: 200px;
+    margin-bottom: 10px;
 }
 
 .banana-details {
@@ -852,7 +863,7 @@ main {
     flex-direction: row;
     width: 100%;
     height: 25px;
-    border: 4px solid mediumseagreen;
+    background-color: white;
 }
 
 .banana-img-1 {
@@ -891,8 +902,47 @@ main {
 }
 
 .legumes button{
-    width: 25%;
-    height: 50px;
-    background-color: #33FF42;
+    width: 20%;
+    height: 90px;
+    background-color: #37cc41;
     border-radius: 20px;
+    color: white;
+    border: none;
+}
+
+/* Section du... Visitez notre entreprise */
+.visitez {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: #0ec61a;
+}
+.visitez h2{
+    padding: 20px;
+    color: white;
+    margin-left: 75px;
+}
+.visitez-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    font-size: 14px;
+}
+.visitez-entreprise {
+    width: 60%;
+    height: 80px;
+    color: white;
+}
+.visitez-1 button {
+    margin-top: 12px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    border: none;
 }
